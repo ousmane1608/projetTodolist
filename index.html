@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes taches du jours</title>
+    <link rel="stylesheet" href="todolist.css">
+    <script src="todolist.js"></script>
+</head>
+<body>
+    <section>
+        <form onsubmit="getValue(event)">
+            <input type="text" class="c-inp">
+            <button class="c-bt" type="submit">ajouter</button>
+        </form>
+        <menu>
+            <div class="c-div1">
+                <button onclick="tout()" >tout</button>
+                <button class="but2" onclick="fait()">fait</button>
+                <button onclick="rest()">reste</button>
+            </div>
+        </menu>
+        <div class="c-div2">
+            <ul class="c-ul">
+            </ul>
+        </div>
+    </section>
+</body>
+</html>
