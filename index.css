@@ -1,46 +1,60 @@
 
 section{
-    margin-left: 10%;
     position: fixed;
     width: 100%;
     height: 100%;
+    border-style: groove;
 }
-form{
-    display: flex;
-    margin-top: 5%;
-    margin-left: 15%;
+.c-Divform{
+    
+    display:flex;
+    flex-direction: row;
+    margin-left: 15.25%;
     position: fixed;
     width: 80%;
-    height: 20px;
-
+    height: 26px;
+    
 }
 .c-inp{
-    width: 50%;
+    margin-left: 10%;
+    position: fixed;
+    width: 45%;
     height: 20px;
 }
 .c-bt{
-    width: 5%;
-    height: 27px;
+    margin-top: 0%;
+    margin-left: 55%;
+    width: 6%;
+    height: 26px;
+    position: fixed;
 }
 menu{
-    width: 100%;
-    margin-top: 10%;
+    margin-top: 0%;
+    width: 10%;
     position: fixed;
     height: 1000%;
+    border-top-right-radius: 10px;
+    border-style:groove
 }
 .c-div1{
     display:flex;
-    margin-left: 10%;
+    flex-direction: column;
+    margin-top: 30%;
 
 }
 button{
-    width: 60px;
+    margin-top: 25%;
+    width: 100%;
     height: 20px;
 }
+.c-div2{
+    margin-top: 100px;
+}
 ul{
+
     display: flex;
+    margin-left: 15%;
     flex-direction: column;
-    margin-top: 17%;
     position: fixed;
     width: 80%;
     height: 100%;

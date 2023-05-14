@@ -23,9 +23,12 @@ class TodoList{
     style(){
         //this.li.style.animation.slice
         // this.li.style.backgroundColor='blue'
-    //    console.log(this.input1.checked) 
-        
+    //    console.log(this.input1.checked)
+        this.but2.style.marginTop='0px'
+        this.but2.style.height='20px'
+        this.but2.style.width='20px'
         this.li.style.marginTop='1px'
+        this.li.setAttribute('type','none')
     }
    
 
